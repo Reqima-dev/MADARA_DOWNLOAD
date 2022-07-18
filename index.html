@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#701260">
+    <!---- Keywords moteur de recherche -->
+    <meta name="keywords"
+        content="madaradownload, films, service de téléchargement, séries, commandez films, téléchargez films, Mangas, ">
+
+    <!---- Definie une description de notre page-->
+    <meta name="description"
+        content="Madara Donwload est un service de téléchargement. Il vous suffit de commandez vos téléchargement et nous on s'occupe de vous faire le téléchargement ainsi que la livraison.">
+
+    <!-- Auteur du site -->
+
+    <meta name="author" content="Adlou KONDO">
+    <title>Madara Donwload - Service de Telechargements</title>
+
+    <!---Link CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- lien Favicon-->
+    <link rel="icon" href="image/Favicon.jpg" />
+
+    <!--- LINK BOOSTRAP CDN-->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+        integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous" />
+
+    <!--- BOxicons-->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!--- MATERIAL CDN-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'"></script>
+
+</head>
+
+<body>
+    <header class="container-header">
+        <div>
+
+            <div class="small-menu">
+                <button>
+                    <span class="material-icons oppen_menu" id="openMenuAside">
+                        menu
+                    </span>
+                </button>
+            </div>
+            <div class="logo-hedaer">
+                <a href="index.html">
+                    <img src="image/logo-head.png" alt="Madara Donwload">
+                </a>
+            </div>
+            <div class="small-menu">
+                <button>
+                    <span class="material-symbols-outlined " id="menu-complet">
+                        close
+                    </span>
+                </button>
+
+            </div>
+
+
+
+
+            <h1>Service de Téléchargement</h1>
+            <form action="">
+                <input type="text" placeholder="Recherche...">
+                <button type="submit"><i class="bx bx-search"></i></button>
+            </form>
+            <div class="social-menu">
+                <a href="https://www.facebook.com/madaradownload" target="blank">
+                    <i class="bx bxl-facebook-circle"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UC9A5oH68k_vqEFV0DSrIB9w" target="blank">
+                    <i class="bx bxl-youtube"></i>
+                </a>
+                <a href="https://t.me/madaraDownload" target="blank">
+                    <i class="bx bxl-telegram"></i>
+                </a>
+                <a href="https://wa.me/22990757450" target="blank">
+                    <i class="bx bxl-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="container-menu">
+        <div class="container-logo">
+            <a href="index.html">
+                <img src="image/LOGO.png" alt="Madara Donwload" />
+            </a>
+        </div>
+        <div class="sidebar">
+            <!--HOme-->
+            <a href="index.html" class="active" title="Accéder à l'Acceuil">
+                <span class="material-icons">home</span>
+                <h3 class="side_Name">Acceuil</h3>
+            </a>
+
+            <!--Films-->
+            <a href="films.html " title="Accéder aux Films">
+                <span class="material-icons">live_tv</span>
+                <h3 class="side_Name">Films</h3>
+            </a>
+
+            <!--Series-->
+            <a href="series.html" title="Accéder aux Séries">
+                <span class="material-icons">ondemand_video</span>
+                <h3 class="side_Name">Séries</h3>
+            </a>
+
+            <!--Animation-->
+            <a href="animation.html" title="Accéder aux Dessins Animés">
+                <span class="material-icons">
+                    pets
+                </span>
+                <h3 class="side_Name">Dessin animé</h3>
+            </a>
+
+            <!--Mangas-->
+            <a href="manga.html" title="Accéder aux Mangas">
+                <span class="material-icons"> flutter_dash </span>
+                <h3 class="side_Name">Mangas</h3>
+            </a>
+
+            <!---GamePC-->
+            <a href="jeux_pc.html" title="Accéder aux Game-PC">
+                <span class="material-icons">videogame_asset</span>
+                <h3 class="side_Name">Jeux PC</h3>
+            </a>
+
+            <!--GameConsoles-->
+            <a href="jeux_consoles.html" title="Accéder aux Game Console">
+                <span class="material-icons">sports_esports</span>
+                <h3 class="side_Name">Jeux Consoles</h3>
+            </a>
+
+            <!--dossieroerso-->
+            <a href="dossierPerso.html" title="Accéder aux FichiersPerso">
+                <span class="material-icons">perm_media</span>
+                <h3 class="side_Name">Fichier Personnel</h3>
+            </a>
+
+            <form action="">
+                <input type="text" placeholder="Recherche...">
+                <button type="submit"><i class="bx bx-search"></i></button>
+            </form>
+        </div>
+    </main>
+
+    <!---End of MAIN ------------->
+
+
+    <section class="container">
+        <div class="container_new_movies">
+            <div class="new-movies-titlte">
+                <h1>Récemment Ajoutée</h1>
+            </div>
+            <!----------- New movies -------------------->
+            <div class="recent_movies">
+                <div class="recent_films">
+                    <h3> <span>• Films</span> VF/ VOSTFR</h3>
+                </div>
+                <div class="movies-image">
+                    <a href="#">
+                        <img src="image/films/Film1.jpg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/films/Film10.jpeg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/films/Film11.png" />
+                    </a>
+                    <a href="#">
+                        <img src="image/films/Film12.jpg" />
+                    </a>
+                </div>
+            </div>
+            <div class="recent_movies">
+                <div class="recent_films">
+                    <h3> <span>• Séries</span> VF/ VOSTFR</h3>
+                </div>
+                <div class="movies-image">
+                    <a href="#">
+                        <img src="image/series/Quel avenir pour....jpg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/series/Series21.jpg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/series/Gomorrah.jpg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/series/SWAT.jpg" />
+                    </a>
+                </div>
+            </div>
+            <div class="recent_movies">
+                <div class="recent_films">
+                    <h3> <span>• Animation</span> VF/ VOSTFR</h3>
+                </div>
+                <div class="movies-image">
+                    <a href="#">
+                        <img src="image/animation/14.jpeg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/animation/19.jpeg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/animation/2.png" />
+                    </a>
+                    <a href="#">
+                        <img src="image/animation/28.jpeg" />
+                    </a>
+                </div>
+            </div>
+            <div class="recent_movies">
+                <div class="recent_films">
+                    <h3> <span>• Mangas</span> VF/ VOSTFR</h3>
+                </div>
+                <div class="movies-image">
+                    <a href="#">
+                        <img src="image/mangas/1.jpg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/mangas/5.jpg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/mangas/17.jpg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/mangas/14.jpg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/mangas/19.jpg" />
+                    </a>
+                    <a href="#">
+                        <img src="image/mangas/4.jpg" />
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+        <!------------ Madara info ----------------->
+        <div class="container_info-madara">
+            <div class="info">
+                <h1>Madara Download</h1>
+                <p>est un service de Téléchargement</p>
+            </div>
+            <div class="md-services">
+                <div class="services">
+                    <img src="image/Present1.png" />
+                    <p>#1 Commandez votre téléchargement.</p>
+                </div>
+                <div class="services">
+                    <img src="image/Present2.png" />
+                    <p>#2 On vous fait un devis de vos commande</p>
+                </div>
+                <div class="services">
+                    <img src="image/Present3.png" />
+                    <p>#3 Validez la commande en Payant</p>
+                </div>
+                <div class="services">
+                    <img src="image/Present4.png" />
+                    <p>#4 On s’occupe du téléchargement</p>
+                </div>
+                <div class="services">
+                    <img src="image/Present5.png" />
+                    <p>#5 Après Téléchargement nous allons vous livrer</p>
+                </div>
+                <div class="services">
+                    <img src="image/Present6.png" />
+                    <p>#6 Besoin d’aide nous sommes à votre disposition</p>
+                </div>
+            </div>
+
+            <!-----------  Special Promo ------------------>
+            <div class="special__promo" id="special_promo">
+                <h1>Special Promo</h1>
+
+                <div class="promo_corver">
+                    <img src="image/FacebookPub.jpg" alt="Special Promo" class="promo_image" />
+                    <div class="bouton-promo">
+                        <div class="bouton-validate">
+                            <a href="#">Validez le pack</a>
+                        </div>
+
+                        <div class="boutton-share">
+                            <span class="material-icons">share </span>
+                            <a href="#"><img src="image/facebook.png" alt=""></a>
+                            <a href="#"> <img src="image/whatsapp.png" alt=""></a>
+                            <a href="#"><img src="image/linkedin.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------ Tarifs Standard-->
+            <div class="tarifs__container">
+                <div class="tarifs">
+                    <h1>Tarifs Standard</h1>
+                    <p>De 0 à 5gb : 500Fcfa</p>
+                </div>
+            </div>
+
+            <!--------- MODE DE PAIEMENT-->
+            <div class="mode__paiementContainer">
+                <div class="paiement_types">
+                    <h1>Mode de paiement</h1>
+                    <img src="image/flow.svg" alt="Mode_paiement" />
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="after_container">
+        <div class="abonnement__container">
+            <div class="info-plan">
+                <h2>Plan d'Abonnement</h2>
+                <p>Choisissez un plan pour vos téléchargements</p>
+                <span>
+                    Avec nos plan d'abonnement plus besoins de se plaindre de problème
+                    d'argent
+                </span>
+            </div>
+            <div class="container___plans">
+                <!-------------- Abonnement simple------------>
+
+                <div class="plan">
+                    <div class="planinfo">
+                        <div class="infoleft">
+                            <h2>5.000 Fcfa</h2>
+                            <small>/ Mois</small>
+                        </div>
+                        <div class="inforight">
+                            <p>Avec ce plan vous aurez accès libre à ce qui serait citer ci
+                                dessous</p>
+                        </div>
+                    </div>
+                    <div class="type_plan">
+                        <h1>SIMPLE</h1>
+                    </div>
+                    <div class="info_types_Plan">
+                        <p>
+                            <span>Durée</span>
+                            : 2 Semaines (14 Jours)
+                        </p>
+                        <p>
+                            <span>Nbre de Télégargement</span>
+                            : 10 éléchargements
+                        </p>
+                        <p>
+                            <span>Nbre de GB</span>
+                            : 35GB
+                        </p>
+                        <p>
+                            <span>Type de Téléchargement</span>
+                            : Au choix du client
+                        </p>
+                        <p>
+                            <span>Livraison</span>
+                            : Livraison Payante
+                        </p>
+                    </div>
+                    <div class="button__commande">
+                        <a href="#">Prendre</a>
+                    </div>
+                </div>
+
+                <!------------ Abonnment complexe --------------->
+                <div class="plan">
+                    <div class="planinfo">
+                        <div class="infoleft">
+                            <h2>7.000 Fcfa</h2>
+                            <small>/ Mois</small>
+                        </div>
+                        <div class="inforight">
+                            <p>Avec ce plan vous aurez accès libre à ce qui serait citer ci
+                                dessous</p>
+                        </div>
+                    </div>
+                    <div class="type_plan ">
+                        <h1>RECOMMANDER</h1>
+                    </div>
+                    <div class="info_types_Plan">
+                        <p>
+                            <span>Durée</span>
+                            : 1 MOIS (30 jours)
+                        </p>
+                        <p>
+                            <span>Nbre de Télégargement</span>
+                            : 17 Téléchargements
+                        </p>
+                        <p>
+                            <span>Nbre de GB</span>
+                            : 50GB
+                        </p>
+                        <p>
+                            <span>Type de Téléchargement</span>
+                            : Au choix du client
+                        </p>
+                        <p>
+                            <span>Livraison</span>
+                            : Livraison Payante
+                        </p>
+                    </div>
+                    <div class="button__commande">
+                        <a href="#">Prendre</a>
+                    </div>
+                </div>
+
+
+
+
+                <!------------ Abonnment Professionnel --------------->
+                <div class="plan">
+                    <div class="planinfo">
+                        <div class="infoleft">
+                            <h2>10.000 Fcfa</h2>
+                            <small>/ Mois</small>
+                        </div>
+                        <div class="inforight">
+                            <p>Avec ce plan vous aurez accès libre à ce qui serait citer ci
+                                dessous</p>
+                        </div>
+                    </div>
+                    <div class="type_plan">
+                        <h1>PREMIMUM</h1>
+                    </div>
+                    <div class="info_types_Plan">
+                        <p>
+                            <span>Durée</span>
+                            : 7 Semaines (49 Jours)
+                        </p>
+                        <p>
+                            <span>Nbre de Télégargement</span>
+                            : 30 Téléchargements
+                        </p>
+                        <p>
+                            <span>Nbre de GB</span>
+                            : 85GB
+                        </p>
+                        <p>
+                            <span>Type de Téléchargement</span>
+                            : Au choix du client
+                        </p>
+                        <p>
+                            <span>Livraison</span>
+                            : Livraison Gratuite
+                        </p>
+                    </div>
+                    <div class="button__commande">
+                        <a href="#">Prendre</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!------------ Témoignages ------------>
+        <section class="temoignages">
+            <section class="swiper mySwiper">
+                <div class="temoin-titre">
+                    <h2>Témoignages</h2>
+                </div>
+                <div class="swiper-wrapper">
+                    <article class="swiper-slide">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Inventore cumque hic repellat. Ducimus, in consequatur?
+                        </p>
+                        <div class="patient">
+                            <div class="avatar">
+                                <img src="./image/avatar3.jpg" alt="Patients one" />
+                            </div>
+                            <div class="aptient__details">
+                                <h5>Ghyslain F.</h5>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="swiper-slide">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Inventore cumque hic repellat. Ducimus, in consequatur?
+                        </p>
+                        <div class="patient">
+                            <div class="avatar">
+                                <img src="./image/avatar2.jpg" alt="Patients two" />
+                            </div>
+                            <div class="aptient__details">
+                                <h5>Mike B.</h5>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="swiper-slide">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Inventore cumque hic repellat. Ducimus, in consequatur?
+                        </p>
+                        <div class="patient">
+                            <div class="avatar">
+                                <img src="./image/avatar4.jpg" alt="Patients three" />
+                            </div>
+                            <div class="aptient__details">
+                                <h5>Doe ajne</h5>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="swiper-slide">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Inventore cumque hic repellat. Ducimus, in consequatur?
+                        </p>
+                        <div class="patient">
+                            <div class="avatar">
+                                <img src="./image/avatar5.jpg" alt="Patients Four" />
+                            </div>
+                            <div class="aptient__details">
+                                <h5>Roamne Eltion</h5>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="swiper-slide">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Inventore cumque hic repellat. Ducimus, in consequatur?
+                        </p>
+                        <div class="patient">
+                            <div class="avatar">
+                                <img src="./image/avatar6.jpg" alt="Patients Five" />
+                            </div>
+                            <div class="aptient__details">
+                                <h5>Gracia Proctor</h5>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Inventore cumque hic repellat. Ducimus, in consequatur?
+                        </p>
+                        <div class="patient">
+                            <div class="avatar">
+                                <img src="./image/avatar7.jpg" alt="Patients six" />
+                            </div>
+                            <div class="aptient__details">
+                                <h5>Didie Proctor</h5>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="swiper-slide">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Inventore cumque hic repellat. Ducimus, in consequatur?
+                        </p>
+                        <div class="patient">
+                            <div class="avatar">
+                                <img src="./image/avatar1.jpg" alt="Patients sevecen" />
+                            </div>
+                            <div class="aptient__details">
+                                <h5>Bruce Wills</h5>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-pagination"></div>
+            </section>
+        </section>
+
+        <!------------- CONTACTS --------------->
+
+        <section class="contact" id="contacts">
+            <div>
+                <h1 class="heading">Contacter Nous</h1>
+                <form action="">
+                    <input type="text" placeholder="Nom" class="box" required />
+                    <input type="email" placeholder="E-mail" class="box" required />
+                    <input type="number" placeholder="N° de Téléphone" class="box" />
+                    <textarea name="" placeholder="Message" class="box" id="" cols="30" rows="10" required></textarea>
+                    <input type="submit" value="Envoyer" class="btn" />
+                </form>
+            </div>
+
+            <div class="stand_livraison">
+                <h1 class="heading">Nos stand de Livraison</h1>
+                <img src="image/Stand de livraison.png" />
+            </div>
+        </section>
+
+
+        <!-------------- footer section-->
+        <section class="footer-container">
+            <div class="footer-menu">
+                <div class="footer-logo">
+                    <a href="index.html" class="logo-footer">
+                        <img src="image/LOGO madara v noir.png" alt="logo-MD-BLACK" />
+                    </a>
+                    <p>
+                        Nous sommes un service de Téléchargemnt. Il vous siufft de commander
+                        ce que vous voulez et nous on se charge de faire le téléchargement
+                        ainsi que la Livraison
+                    </p>
+                </div>
+                <div class="social-menu footer-social">
+                    <a href="mailto:madaradownloads@gmail.com">
+                        <i class="bx bxl-gmail"></i>
+                    </a>
+                    <a href="tel:+22990757450"><i class="bx bx-phone-call"></i></a>
+                    <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+                    <a href="#"><i class="bx bxl-youtube"></i></a>
+                    <a href="#"><i class="bx bxl-telegram"></i></a>
+                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                </div>
+            </div>
+            <!---Footer-->
+            <footer>
+                <p>© Madara Download 2022. | Reproduction interdite</p>
+            </footer>
+        </section>
+
+
+    </section>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <!---- Link JS-->
+    <script src="js/app.js"></script>
+
+
+
+</body>
+
+</html>
